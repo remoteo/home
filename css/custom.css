@@ -1,0 +1,109 @@
+/*!
+ * Landing page by Hackerloop
+ */
+
+
+/*
+Typo
+*/
+
+body {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+
+}   
+
+
+h1 {
+    font-weight: bold;
+}
+
+p {
+    padding: 12px 0;
+}
+
+/*
+Left column
+*/
+
+.logo {
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 36px;
+    margin: 48px;
+    border: 2px solid white;
+    text-align: center;
+}
+.full-image {   
+    /*display: block;
+    width: 100%;*/
+    background: url('../img/bkg_img.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/*
+Right column
+*/
+
+.content {
+    padding: 24px 48px;
+    color: white;
+    background-color:  rgba(0,0,0,0.5);
+}
+
+.fork-button {
+    text-align: center;
+}
+
+/*
+Mailchimp form
+*/
+
+#mc-form {
+    padding: 48px 0 24px;
+}
+
+.error {
+    font-weight: 400;
+    font-size: 16px;
+    color: red;
+}
+.valid {
+    font-weight: 400;
+    font-size: 16px;
+} 
+.mc-label {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/*
+Responsive variables
+*/
+
+@media(min-width:1024px) {
+
+}
+
+@media(min-width:768px) {
+
+}
+
+@media(max-width:767px) {
+    .logo {
+        text-align: center;
+        padding-left: 0;
+    }
+    .full-image {    
+        width: 100%;
+        max-height: 200px;
+    }
+    .content {
+        padding: 12px 24px;
+    }
+
+}
