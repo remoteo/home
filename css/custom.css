@@ -16,6 +16,8 @@ body {
 
 h1 {
     font-weight: bold;
+    margin-top: -10px;
+    font-size: 30px;
 }
 
 p {
@@ -35,6 +37,12 @@ Left column
     border: 2px solid white;
     text-align: center;
 }
+
+
+.logo-image {
+    float:right; 
+}
+
 .full-image {   
     /*display: block;
     width: 100%;*/
@@ -55,6 +63,14 @@ Right column
     background-color:  rgba(0,0,0,0.5);
 }
 
+.logo-content {
+    width:100%;
+    float:left;
+}
+.sub-content {
+    width:60%;
+    float:right;
+}
 .fork-button {
     text-align: center;
 }
